@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.TextView.Default" parent = "">
+        <item name="fontFamily">@font/geologica_regular</item>
+        <item name="android:fontFamily">@font/geologica_regular</item>
+        <item name="android:textColor">@color/color_text_default</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/_1sdp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.TextView.Default_16" parent ="AppTheme.TextView.Default">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColorHint">@color/color_text_default</item>
+    </style>
+
+    <style name="AppTheme.TextView.Title_Note" parent ="AppTheme.TextView.Default">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.TextView.Content_Note" parent ="AppTheme.TextView.Default">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+    </style>
+
+    <color name="color_text_default">#22252e</color>
+    <color name="color_text_hint">#9F9797</color>
+</resources>

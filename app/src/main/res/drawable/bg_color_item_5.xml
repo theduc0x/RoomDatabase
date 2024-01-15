@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_pressed="false">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/_5sdp"/>
+                    <solid android:color="@color/color_item"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:drawable="?attr/selectableItemBackground">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_5sdp"/>
+        </shape>
+    </item>
+</layer-list>
